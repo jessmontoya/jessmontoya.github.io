@@ -2,6 +2,16 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+header {
+    background-color: white;
+}
+
 a {
     color:#000000;
     font-family: 'Quicksand', sans-serif;
@@ -17,12 +27,41 @@ a:hover {
     border-radius: 0;
     background: transparent;
     border: 0;
+    font-weight: bold;
     -webkit-box-shadow: none;
     box-shadow: none;
-    display: inline-block;
-    float: none;
-    vertical-align: top;
-    text-align: center;
 }
 
+.navbar-nav > li{
+    padding-left:0px;
+    padding-right:0px;
+  }
+
+.navbar-nav.navbar-center {
+    position: fixed;
+    left:50%;
+    transform: translatex(-50%);
+}
+
+.img-thumbnail {
+    border: 0 none;
+    box-shadow: none;
+}
+
+.top-buffer {
+    margin-top:20px;
+}
+
+.wide-space {
+    line-height: 30px;
+    word-spacing: 3px;
+}
+
+p {
+    color: grey;
+}
+
+.text-bigger {
+    font-size: 18px;
+}
 

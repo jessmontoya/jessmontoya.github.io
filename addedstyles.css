@@ -2,6 +2,10 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+section {
+    padding-top: 325px; 
+}
+
 h1 {
     font-family: 'Caveat', cursive;
     font-size: 70px;
@@ -10,6 +14,9 @@ h1 {
 
 header {
     background-color: white;
+    position: fixed;
+    left:50%;
+    transform: translatex(-50%);
 }
 
 a {
@@ -25,7 +32,7 @@ a:hover {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
-    background: transparent;
+    background: white;
     border: 0;
     font-weight: bold;
     -webkit-box-shadow: none;

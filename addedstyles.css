@@ -2,18 +2,10 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
-section {
-    padding-top: 335px;
-}
-
 h1 {
     font-family: 'Caveat', cursive;
     font-size: 70px;
     font-weight: bold;
-}
-
-.fixed-top {
-    position: fixed;
 }
 
 a {

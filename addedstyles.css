@@ -3,7 +3,7 @@ body {
 }
 
 section {
-    padding-top: 325px; 
+    padding-top: 335px;
 }
 
 h1 {
@@ -12,11 +12,8 @@ h1 {
     font-weight: bold;
 }
 
-header {
-    background-color: white;
+.fixed-top {
     position: fixed;
-    left:50%;
-    transform: translatex(-50%);
 }
 
 a {
@@ -39,15 +36,16 @@ a:hover {
     box-shadow: none;
 }
 
-.navbar-nav > li{
-    padding-left:0px;
-    padding-right:0px;
-  }
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
 
-.navbar-nav.navbar-center {
-    position: fixed;
-    left:50%;
-    transform: translatex(-50%);
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
 }
 
 .img-thumbnail {
